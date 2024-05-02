@@ -6,9 +6,6 @@ description: Sandclock Terminology, ordered alphabetically
 
 **Compound:** to lock in the profits and reinvest them
 
-### HNWI
-Acronym for **High Net Worth Individual**.
-
 **Liquidation:** a process that occurs when a borrower's liabilities exceed an agreed upon acceptable Loan-to-Value ratio. In such a scenario, a third party can pay off some or all the debt in order to unlock the borrower's collateral, typically at a discount.
 
 **Metavault:** an entity that has been created in order to structure capital based on the creator's thesis.
