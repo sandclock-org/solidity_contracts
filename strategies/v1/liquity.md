@@ -1,5 +1,5 @@
 ---
-description: 'Blockchain: Ethereum'
+description: 'Blockchain: Ethereum (Now Deprecated)'
 ---
 
 # Amethyst
@@ -18,7 +18,7 @@ The Metavault **receives LQTY** [**at a predetermined emission schedule**](https
 As a result, the short term APY estimate is completely unpredictable. As a result, for our frontend, we will use an arbitrary range featuring historical data from two separate epochs.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Visual explanation of how Amethyst strategy works.</p></figcaption></figure>
 
 During bear markets and bull/crab market high volatility periods, the frequency of liquidations increases, and so does the Stability Pool's revenue. Because of this **we recommend a minimum deposit duration of 1 month.**
 
@@ -30,7 +30,7 @@ Other than the ever present smart contract risk, loss is incurred when the avera
 
 &#x20;Sandclock makes no promises regarding the yield generated.
 
-## Methods
+### Methods
 
 The Metavault earns a return on its stablecoin deposits by dollar-cost averaging into liquidated ETH through Liquity Protocol's stability pool and swapping for the underlying. Liquidation profits are then reinvested into the strategy, compounding yield for depositors over time.
 
@@ -47,10 +47,10 @@ Typically, we only claim when we want to liquidate, based on the trailing stop l
 
 All actions occur automatically.
 
-#### **Trailing Stop Loss**
+### **Trailing Stop Loss**
 
 The backend checks for liquidations on the stability pool every 10 minutes, logging each event. When a liquidation takes place it logs the amount of ETH liquidated that we are entitled to, the price of acquisition, and our balance. The backend uses this data and ETH’s current price to calculate our weighted average price of acquisition, and puts a trailing stop loss order in place, which in turns sets the ETH liquidation price for the backend. The backend checks ETH’s price every 10 minutes and compares it to the liquidation price. If it is equal or lower than the liquidation price, it exchanges ETH and LQTY for LUSD and compounds.
 
-#### Heartbeat
+### Heartbeat
 
 If it has been 4 weeks since the last claim, claim and liquidate for the sake of yield distribution to Sandclock users, as well as ensuring a monthly compounding frequency.

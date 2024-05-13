@@ -39,4 +39,3 @@ description: Smart Contract Audits
 
 [2022-09, by WatchPug](https://drive.google.com/file/d/1kR3nshIZNR6EqWHDFBWuKVSd2a76hZUD/view?usp=sharing)
 
-##

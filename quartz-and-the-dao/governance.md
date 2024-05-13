@@ -4,9 +4,23 @@ Sandclock is a community owned project, governed by QUARTZ token holders.
 
 ## Road to Decentralization
 
-As with every reputable protocol, Sandclock has had a plan to decentralize from day 1. However, the path to decentralization must be a gradual process in order to ensure the long term success and resilience of the protocol. Our plan features three stages: **Snapshot → SafeSnap → On-chain DAO.**
+As with every reputable protocol, Sandclock has had a plan to decentralize from day 1. However, the path to decentralization must be a gradual process in order to ensure the long term success and resilience of the protocol.
 
-### **Snapshot**
+Our plan features four stages:
+
+**Discord temperature check** **→ Snapshot → SafeSnap → On-chain DAO.**
+
+### **Discord Temperature Check** <a href="#discord-temperature-check" id="discord-temperature-check"></a>
+
+A proposal will be submitted into Sandclock's Discord (proposal-draft) channel for temperature check. Community members can vote for or against the proposal by reacting 👍 or 👎.
+
+A duration of 3 days will be given to proposal starter to shill and convince the community members to vote for their proposal. A minimum of 100 $QUARTZ token is required to submit a proposal.
+
+Once the proposal passed the temperature check, proposer will need to submit it on Snapshot for vote.
+
+A minimum of 60,000 $QUARTZ token is required to submit a proposal on Snapshot.
+
+### **Snapshot** <a href="#snapshot" id="snapshot"></a>
 
 Initially Snapshot will be used. Snapshot does not allow for trustless on-chain execution of off-chain votes.
 
@@ -14,7 +28,7 @@ Initially Snapshot will be used. Snapshot does not allow for trustless on-chain 
 
 SafeSnap combines Snapshot and Gnosis Safe to enable trustless on-chain execution of off-chain votes. This makes SafeSnap a very good decentralization solution for Sandclock, and one that could in theory be used for a long time.
 
-Once launched, we will have the current multisig as a safeguard. Thus, on-chain execution of off-chain votes is handled by the SafeSnap module, but there are still multisig owners that can veto malicious actions or act quickly in the case of an emergency. &#x20;
+Once launched, we will have the current multisig as a safeguard. Thus, on-chain execution of off-chain votes is handled by the SafeSnap module, but there are still multisig owners that can veto malicious actions or act quickly in the case of an emergency.
 
 ### DAO
 
@@ -48,5 +62,3 @@ The contracts functions can be paused for a certain amount of time per function 
 * **Non-technical Proposals**
 
 A non-technical proposal is any proposal without a low level specification. An example of such a proposal would be to add a `rageQuit()` function to QUARTZ in order to modify its value accrual mechanisms. Another example would be a marketing proposal, or deploying to another chain.
-
-##

@@ -1,5 +1,5 @@
 ---
-description: (For v2 Strategies)
+description: For v2 Strategies
 ---
 
 # Integration

@@ -1,14 +1,8 @@
 # Allocation
 
-
-
-<figure><img src="../.gitbook/assets/chart.svg" alt=""><figcaption><p>Initial Allocation: Team 20%, DAO 80%.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/sc-quartz-allocation.png" alt=""><figcaption><p>Initial Allocation: Team 20%, DAO 80%</p></figcaption></figure>
 
 The community will become responsible for the spending of the DAO's QUARTZ upon deployment of Snapshot and then, the DAO.
-
-QUARTZ has been whitelisted by UMA. This allows us to craft KPI options in order to significantly improve the capital efficiency of emissions and ensure they are providing a value to the DAO that is comparable to the amount being spent. They also allow Sandclock to prevent dilution of existing holders, provided KPIs are met, aligning incentives between the community and the success of the protocol.
-
-&#x20;Our recommendation for the allocation no longer contains hard values. Instead, we list relevant areas for efficient DAO spending, listed below:
 
 * **Insurance**
 
@@ -26,11 +20,13 @@ QUARTZ can be distributed to increase the TVL of Sandclock's metavaults (e.g. th
 
 QUARTZ can be granted to incentivize development or marketing of our growing ecosystem.
 
-### Permalocked Tokens
+## Permalocked Tokens
 
-At least 30% of QUARTZ shall remain locked in perpetuity. The purpose of this QUARTZ is to incentivize TVL growth, Giving, or other actions on-chain **without diluting existing holders.** It achieves this through a delegative function, whereby a trusted backend can delegate voting power to an address on Polygon without transferring ownership of the tokens.
+~~At least 30% of QUARTZ shall remain locked in perpetuity. The purpose of this QUARTZ is to incentivize TVL growth, Giving, or other actions on-chain **without diluting existing holders.** It achieves this through a delegative function, whereby a trusted backend can delegate voting power to an address on Polygon without transferring ownership of the tokens.~~
 
-It was initially designed in order to incentivize giving, but it can fulfill other objectives while preserving the value of QUARTZ.
+~~It was initially designed in order to incentivize giving, but it can fulfill other objectives while preserving the value of QUARTZ.~~
+
+[Now burned](https://etherscan.io/tx/0x7df8345380335a48729b5b94f223561d733b2b6e5236d07a6aeea9ba06240b85)
 
 ## Chronological Records
 
@@ -56,15 +52,10 @@ It was initially designed in order to incentivize giving, but it can fulfill oth
 
 177,819.05 have been used for grants to date
 
-## Circulating
+## Total Supply
 
-9,467,604.05 QUARTZ
-
-## Non-circulating
-
-| Purpose     | Scheduled Emissions                                                                                                                                                                                                                                                                                                                     | Tokens        |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| DAO         | <p>None. The DAO controls the use of these tokens. Possible future use cases are listed under <a href="allocation.md">DAO Tokens</a>, designed to increase the value of the treasury and lessen the effects of dilution for $QUARTZ holders. In other words, they'll be used to accelerate growth and benefit all stakeholders.<br></p> | 43,832,395.95 |
-| Permalocked | None. These will be locked in perpetuity. Learn more under [Permalocked Tokens](allocation.md#permalocked-tokens)​.                                                                                                                                                                                                                     | 30,000,000    |
-| Team        |  To date, only approximately 15,000,000 have been allocated. Team tokens are vested linearly over three years. The cliff ended on April 21 of 2022 and team members are able to claim, as the tokens are vesting until October 21 2024. They don’t fall under circulating until claimed.                                                | 18,200,000    |
-
+| Purpose     | Scheduled Emissions                                                                                                                                                                                                                                                                                                                                                 | Tokens      |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| DAO         | <p>Emissioning 15% APY via TVL mining incentive. The DAO controls the use of these tokens. Possible future use cases are listed under <a href="./">DAO Tokens</a>, designed to increase the value of the treasury and lessen the effects of dilution for QUARTZ holders. In other words, they'll be used to accelerate growth and benefit all stakeholders.<br></p> | 51,800,000  |
+| Permalocked | ~~None. These will be locked in perpetuity. Learn more under~~ [~~Permalocked Tokens~~](https://docs.sandclock.org/current/quartz-and-the-dao/allocation#permalocked-tokens)~~​.~~ \[BURNED]                                                                                                                                                                        | -30,000,000 |
+| Team        |  To date, only approximately 15,000,000 have been allocated. Team tokens are vested linearly over three years. The cliff ended on April 21 of 2022 and team members are able to claim, as the tokens are vesting until October 21 2024. They don’t fall under circulating until claimed.                                                                            | 18,200,000  |

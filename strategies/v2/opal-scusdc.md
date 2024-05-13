@@ -1,9 +1,16 @@
 ---
-cover: ../../.gitbook/assets/strat.jpg
-coverY: 0
+description: 'Blockchain: Ethereum'
 ---
 
 # Opal (scUSDC)
+
+{% hint style="info" %}
+For investing in scUSDC, we recommend a minimum investment time of at least a few weeks. Otherwise, the user may realize small losses when redeeming.
+
+This is because of the costs associated with investing and the fact we use an oracle to estimate the current worth of the vault assets.
+
+This is because we want to offer instant withdrawals and be 100% liquid.
+{% endhint %}
 
 _Welcome to **Sandclock Yield USDC (scUSDC)**, a cutting-edge financial strategy designed to generate consistent and compounded returns in USDC leveraging Ethereum staking._
 

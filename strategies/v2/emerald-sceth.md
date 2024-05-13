@@ -1,10 +1,6 @@
 ---
-cover: ../../.gitbook/assets/IMG (1).jpg
-coverY: 0
+description: 'Blockchain: Ethereum'
 layout:
-  cover:
-    visible: true
-    size: full
   title:
     visible: true
   description:
@@ -19,6 +15,14 @@ layout:
 
 # Emerald (scETH)
 
+{% hint style="info" %}
+For investing in scETH we recommend a minimum investment time of at least a few weeks. Otherwise, the user may realize small losses when redeeming.
+
+This is because of the costs associated with investing and the fact we use an oracle to estimate the current worth of the vault assets.
+
+This is because we want to offer instant withdrawals and be 100% liquid.
+{% endhint %}
+
 **Deposit Token : **_**WETH or ETH**_
 
 _Welcome to scETH's strategy guide! We've designed a smart way to help you get more from your Ethereum (ETH) deposits. This guide will walk you through how it all works, why it's efficient, and what you should know about potential risks._
@@ -29,7 +33,7 @@ This strategy is designed to maximize returns on ETH deposits by leveraging stak
 
 It leverages the supplied WETH using flashloans, stakes the leveraged ETH, supplies the wstETH as collateral and subsequently borrows WETH on that collateral to payback the flashloan. The bulk of the interest is earned from staking the leveraged ETH and rest from supplying wstETH collateral. Instead of being limited to just one pre coded lending market, this strategy can use mulitple lending markets thus introducing greater flexibility, better APYs and lower risk for the investments.
 
-<figure><img src="../../.gitbook/assets/IMG (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG (1).jpg" alt=""><figcaption><p>Emerald (scETH) strategy visual explanation</p></figcaption></figure>
 
 ### **How it works**
 

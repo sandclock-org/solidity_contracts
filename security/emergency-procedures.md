@@ -2,7 +2,7 @@
 description: Lists actions to take in case of an emergency
 ---
 
-# Emergency Procedures
+# Emergency Procedure
 
 Got a bug to report? Reach out to us at [engineering@sandclock.org](mailto:engineering@sandclock.org?subject=%5BURGENT%5D%20Bug%20Report).
 
@@ -31,7 +31,7 @@ In the event of an emergency situation, the following roles should be assigned t
 
 * Facilitator
 * Multi-sig Herde
-* Core Dev Lead (Guardian9
+* Core Dev Lead (Guardian9)
 * Web Lead
 * Ops
 
@@ -183,13 +183,10 @@ Participants are encouraged to provide inputs on each of the steps. If a partici
 2. Facilitator runs through an agenda to obtain the necessary post-mortem outputs.
 3. For the Root Cause Analysis part, the Facilitator conducts an exercise to write the problem statement first and then confirm with the participants that the statement is correct and understood.
 4. Root Cause Analysis can be identified with following tools:
-
-* Brainstorming session with participants
-* [The 5 Whys Technique](https://en.wikipedia.org/wiki/Five\_whys)
-
-1. Once Root Causes have been identified, action items can be written and assigned to willing participants that can own the tasks. It is recommended that an estimated time for completion is given. A later process can track completion of given assignments. **Note: The action items need to be clear, actionable and measurable for completion**
-2. The Facilitator tracks completion of action items. The end result of the process should be an actionable improvement in the process. Some possible improvements:
-
-* Changes in the process and documentation
-* Changes in code and tests to validate
-* Changes in tools implemented and incorporated into the process
+   1. Brainstorming session with participants
+   2. [The 5 Whys Technique](https://en.wikipedia.org/wiki/Five\_whys)
+5. Once Root Causes have been identified, action items can be written and assigned to willing participants that can own the tasks. It is recommended that an estimated time for completion is given. A later process can track completion of given assignments. **Note: The action items need to be clear, actionable and measurable for completion**
+6. The Facilitator tracks completion of action items. The end result of the process should be an actionable improvement in the process. Some possible improvements:
+   1. Changes in the process and documentation
+   2. Changes in code and tests to validate
+   3. Changes in tools implemented and incorporated into the process
