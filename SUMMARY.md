@@ -10,6 +10,7 @@
   * [v2](strategies/v2/README.md)
     * [Emerald (scETH)](strategies/v2/emerald-sceth.md)
     * [Opal (scUSDC)](strategies/v2/opal-scusdc.md)
+    * [scDAI](strategies/v2/opal-scusdc-1.md)
     * [Amber (scLUSD)](strategies/v2/amber-sclusd.md)
 * [QUARTZ & The DAO](quartz-and-the-dao/README.md)
   * [QUARTZ](quartz-and-the-dao/quartz.md)
