@@ -6,50 +6,32 @@ description: 'Blockchain: Ethereum'
 
 ## **Overview**
 
-_scDAI is a strategy almost completely similar to scUSDC but with DAI & sDAI as the deposit tokens._&#x20;
+**scDAI** is an ERC4626-compliant wrapper contract for scSDAI, allowing users to interact with scSDAI directly using DAI instead of sDAI.
 
 ### **Mechanism**
 
-Here's how the scDAI strategy operates in a streamlined manner:
-
-1. **Initial Deposit**: Users deposit DAI or sDAI into the scDAI vault and are issued an equivalent amount of scDAI shares.
-2. **Loan Creation**: The strategy engages one or multiple lending markets (currently just [SparkLend](https://docs.spark.fi/defi-infrastructure/sparklend)), utilizing sDAI to secure a loan in ETH.
-3. **Yield Generation**: The borrowed ETH is allocated to the scETH strategy, thereby generating yield through leveraged Ethereum staking.
-4. **Yield Conversion & Compounding**: The yield generated in ETH is converted back to sDAI. The process is then iteratively repeated, leveraging steps 2 and 3, to compound interest.
+* **Deposits:** Users deposit DAI into the scDAI contract. The contract converts DAI into sDAI, which is then deposited into the scSDAI vault for yield generation.
+* **Yield Generation:** Yield is generated entirely within the scSDAI vault. The scDAI contract itself does not implement any additional yield-generating mechanisms.
+* **Withdrawals:** When a user initiates a withdrawal, scDAI redeems the corresponding scSDAI shares, converts them back into sDAI, and finally into DAI, transferring the resulting DAI to the user.
 
 ### **Portfolio Rebalancing**
 
-To maintain a healthy Loan-to-Value (LTV) ratio, the strategy employs a process known as "rebalancing." This is triggered when:
-
-* The LTV deviates by 5% or more from the target.
-* Additional new deposits are made into the strategy.
-* The yield crosses a predetermined threshold.
-
-### **Gas Efficiency**
-
-We prioritize gas efficiency at every step:
-
-* **Deposits**: Minimal gas is required as it only involves minting scDAI shares.
-* **Withdrawals**: To minimize withdrawal gas costs, an amount equivalent to 1% of the total assets managed by the strategy is readily available for immediate withdrawals. Exceeding this limit may incur additional gas costs.
+As a utility wrapper, scDAI does not handle portfolio rebalancing or implement specific gas optimization strategies. These functionalities are managed by the [scSDAI](opal-scusdc-2.md) vault.
 
 ### **Risk Mitigation**
 
 #### **Smart Contract Risk**
 
-Despite undergoing rigorous testing and audits by Trail of Bits, it's important to acknowledge the residual risk associated with smart contract vulnerabilities.
+The scDAI contract has not undergone external audits due to its limited functionality, which is restricted to converting DAI to sDAI (and vice versa) and facilitating interactions with scSDAI.
 
 #### **Liquidation Risk**
 
-Borrowing ETH against sDAI carries a liquidation risk, especially in volatile market conditions. To mitigate this, our backend system offers 24/7 monitoring that triggers an immediate rebalancing process if the LTV increases by 5%, thereby adjusting the loan amounts to align with target LTV values.
-
-Invest wisely and leverage the power of scDAI to optimize your yield generation in a secure and efficient manner.
+There is no additional liquidation risk beyond what is inherent in the scSDAI strategy.
 
 ### Audits
 
-[Audited by Trail of Bits.](https://github.com/trailofbits/publications/blob/master/reviews/2023-07-sandclock-securityreview.pdf) \
-\
-The only changes made in the scUSDC contracts to have it ready to support DAI for scDAI was&#x20;
+The scDAI contract code has not been audited by external auditors.
 
-* Address changes of the deposit tokens & oracles
-* Change of the swap routes to support sDai to eth swaps and vice versa instead of usdc to eth swaps.
-* Addition of a new `depositDai()` method to support DAI deposits.
+### Conclusion
+
+scDAI is a straightforward utility contract that simplifies user interactions with the scSDAI vault by enabling DAI deposits and withdrawals. It inherits the benefits and risks of the underlying scSDAI strategy while offering a user-friendly interface for DAI-based participation.

@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Emerald (scETH)
+# scETH
 
 {% hint style="info" %}
 For investing in scETH we recommend a minimum investment time of at least a few weeks. Otherwise, the user may realize small losses when redeeming.
@@ -23,9 +23,9 @@ This is because of the costs associated with investing and the fact we use an or
 This is because we want to offer instant withdrawals and be 100% liquid.
 {% endhint %}
 
-**Deposit Token : **_**WETH or ETH**_
+**Deposit Token :&#x20;**_**WETH or ETH**_
 
-_Welcome to scETH's strategy guide! We've designed a smart way to help you get more from your Ethereum (ETH) deposits. This guide will walk you through how it all works, why it's efficient, and what you should know about potential risks._
+_Welcome to scETH's (former Emerald) strategy guide! We've designed a smart way to help you get more from your Ethereum (ETH) deposits. This guide will walk you through how it all works, why it's efficient, and what you should know about potential risks._
 
 ### **Introduction**
 
