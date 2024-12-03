@@ -1,14 +1,22 @@
 ---
-description: Smart Contract Audits
+description: SOC 2 Compliance and Smart Contract Audits
 ---
 
 # External
+
+## SOC 2 Report
+
+Sandclock is compliant with SOC 2 standards. View the auditor attestation report here:
+
+{% file src="../.gitbook/assets/033124 Lindy Labs SOC 2 Type 1 Report.pdf" %}
+
+## Smart Contract Audits
 
 ### ERC4626 Vault
 
 [2023-07, by Trail Of Bits](https://github.com/trailofbits/publications/blob/master/reviews/2023-07-sandclock-securityreview.pdf)
 
-[2023-04, by WatchPug](https://github.com/lindy-labs/sandclock-contracts/blob/main/audits/2023\_April\_27\_WatchPug\_Audit\_Report.pdf)
+[2023-04, by WatchPug](https://github.com/lindy-labs/sandclock-contracts/blob/main/audits/2023_April_27_WatchPug_Audit_Report.pdf)
 
 ### Token
 
@@ -35,7 +43,7 @@ description: Smart Contract Audits
 
 [2022-07, by WatchPug](https://drive.google.com/file/d/1OGnhJvpeihdzliFWDL9DHqIWcbsML39q/view?usp=sharing)
 
-[2022-08, by WatchPug](https://drive.google.com/file/d/1lRH0Xl37FX4\_FCF36ocafShXPMcRQ58I/view?usp=sharing)
+[2022-08, by WatchPug](https://drive.google.com/file/d/1lRH0Xl37FX4_FCF36ocafShXPMcRQ58I/view?usp=sharing)
 
 [2022-09, by WatchPug](https://drive.google.com/file/d/1kR3nshIZNR6EqWHDFBWuKVSd2a76hZUD/view?usp=sharing)
 

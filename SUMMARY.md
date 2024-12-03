@@ -20,8 +20,6 @@
   * [Staking](quartz-and-the-dao/staking.md)
   * [Governance](quartz-and-the-dao/governance.md)
   * [Allocation](quartz-and-the-dao/allocation.md)
-* [SOC compliance](soc-compliance/README.md)
-  * [SOC Compliance](soc-compliance/soc-compliance.md)
 * [Partnerships](partnerships.md)
 
 ## Technical Documentation
